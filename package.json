@@ -1,0 +1,28 @@
+{
+  "name": "dice-master",
+  "version": "1.0.0",
+  "description": "Dice Rolling bot",
+  "main": "bot.js",
+  "dependencies": {
+    "better-pastebin": "^0.4.1",
+    "daniis-tools": "^1.0.1",
+    "dblapi.js": "^2.3.0",
+    "discord.js": "github:discordjs/discord.js",
+    "mongoose": "^5.7.14",
+    "node-pre-gyp": "^0.14.0",
+    "pastebin-js": "^1.0.3",
+    "require-yml": "^1.3.2"
+  },
+  "devDependencies": {
+    "@types/node": "^13.1.4",
+    "gulp": "^4.0.2",
+    "gulp-typescript": "^6.0.0-alpha.1",
+    "typescript": "^3.7.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "gulp compile"
+  },
+  "author": "",
+  "license": "ISC"
+}
